@@ -1,0 +1,470 @@
+/* header */
+.header {
+    height: 120px;
+}
+
+/* header 1st */
+.header__navbar-1st-list {
+    height: 62px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: var(--white-color);
+}
+
+.header__navbar-1st-item {
+    list-style: none;
+    font-size: 2rem;
+    margin: 0 16px;
+}
+
+/* header 2nd */
+.header__navbar-2nd {
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4CAF50;
+}
+
+.header__navbar-2nd-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header__navbar-2nd-item {
+    list-style: none;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    padding: 10px 26px 0;
+    align-items: center;
+}
+
+.header__navbar-2nd-item:hover {
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+/* Container */
+.container {
+    display: flex;   
+}
+
+/* List Learn Unit */
+.learn__list {
+    width: 230px;
+    border: 1px solid #e6e6e6;
+}
+
+.learn__list-unit {
+    padding-left: 0;
+}
+
+.learn__list-unit-header-name {
+    font-size: 2.1rem;
+    padding-left: 16px;
+    font-weight: 400;
+    color: var(--black-color);
+    margin: 10px 0;
+}
+
+.learn__list-unit-content:hover {
+    cursor: pointer;
+    background-color: #ccc8c8;
+}
+
+.learn__list-unit-content {
+    list-style: none;
+    padding-left: 16px;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+/* description */
+/* HTML description */
+.learn__description {
+    width:100%
+}
+/* HTML */
+.learn__description-html {
+    width: 100%;
+    height: 502px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn__description-html-html {
+    width: 560px;
+    height: 304px;
+    text-align: center;
+    padding: 34px;    
+    flex: 1;
+}
+
+.learn__description-html-example {
+    width: 496px;
+    height: 420px;
+    padding: 16px;
+    background-color: #f1f1f1;
+    margin: 34px;
+    border-radius: 2px;
+    flex: 1;
+}
+
+/* CSS */
+.learn__description-css {
+    width: 100%;
+    height: 484px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+
+.learn__description-css-css {
+    width: 560px;
+    height: 304px;
+    text-align: center;
+    padding: 34px;    
+    flex: 1;
+}
+
+.learn__description-css-example {
+    width: 496px;
+    height: 420px;
+    padding: 16px;
+    background-color: #f1f1f1;
+    margin: 34px;
+    border-radius: 2px;
+    flex: 1;
+}
+
+/* JavaScript */
+.learn__description-javascript {
+    width: 100%;
+    height: 502px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn__description-javascript-javascript {
+    width: 560px;
+    height: 304px;
+    text-align: center;
+    padding: 34px;    
+    flex: 1;
+}
+
+.learn__description-javascript-example {
+    width: 496px;
+    height: 420px;
+    padding: 16px;
+    background-color: #f1f1f1;
+    margin: 34px;
+    border-radius: 2px;
+    flex: 1;
+}
+
+/* SQL */
+.learn__description-sql {
+    width: 100%;
+    height: 484px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+
+.learn__description-sql-sql {
+    width: 560px;
+    height: 304px;
+    text-align: center;
+    padding: 34px;    
+    flex: 1;
+}
+
+.learn__description-sql-example {
+    width: 496px;
+    height: 420px;
+    padding: 16px;
+    background-color: #f1f1f1;
+    margin: 34px;
+    border-radius: 2px;
+    flex: 1;
+}
+
+/* Programming */
+.learn__description-programming {
+    height: 605px;
+    width: 100%;
+    display: flex;
+    background-color: #616161;
+}
+
+.programming-list {
+    width: 100%;
+    height: 540px;
+    background-color: #616161;
+    text-align: center;
+    padding-left: 0;
+    margin: 40px 0;
+}
+
+.programming-item {
+    list-style: none;
+    height: 228px;
+    margin: 22px 34px;
+    background-color: var(--white-color);
+    padding: 30px;
+}
+
+/* Framework */
+.learn__description-framework {
+    height: 391px;
+    display: flex;
+    align-items: center;
+}
+
+.framework {
+    flex: 1;
+    text-align: center;
+}
+
+/* Exercises */
+.learn__description-exercises {
+    height: 398px;
+    background-color: #616161;
+    text-align: center;
+    padding: 48px 24px 68px;
+}
+
+/* templates */
+.learn__description-templates {
+    height: 665px;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 32px 24px;
+}
+
+.templates-img {
+    width: 90%;
+    margin: 26px 10px 30px 10px;
+}
+
+/* section */
+.learn__description-section {
+    height: 232px;
+    margin-top: 20px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+/* certificates */
+.learn__description-certificates {
+    background-color: #000;
+    height: 537px;
+    text-align: center;
+}
+.background {
+    background-image: url(https://www.w3schools.com/getcertified.jpg);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.header-certificates {
+    background-color: rgba( 0, 0, 0, 0.5);
+    width: 77%;
+    padding: 30px 0;
+}
+
+.btn-certificates {
+    margin-top: 80px;
+    width: 77%;
+}
+
+/* end */
+.learn__description-end {
+    height: 336px;
+    text-align: center;
+    background-color: #616161;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.list-end {
+    padding-left: 0;
+    margin: 30px 16px;
+}
+
+.span-end {
+    position: relative;
+    margin: 0 10px;
+}
+
+.span-end--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 15px;
+    border-right: 1px solid var(--white-color);
+    right: -11px;
+    top: 20%;
+}
+
+.icon-end {
+    display: block;
+    margin-top: 30px;
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+.icon-end:hover {
+    cursor: pointer;
+}
+
+.header-1 {
+    font-size: 7rem;
+    color: var(--text-color);
+    margin: 50px;
+}
+
+.header-2 {
+    font-size: 2.4rem;
+    margin: 10px 0;
+}
+
+.header-3 {
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+.header-4 {
+    font-size: 3.6rem;
+    color: var(--white-color);
+    margin: 10px 0;
+}
+
+.span-1 {
+    font-size: 2.4rem;
+    color: var(--text-color);
+    margin: 24px 0;
+    line-height: 1.6rem;
+}
+
+.span-2 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 10px 0 30px 0;
+}
+
+.span-3 {
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.span-4 {
+    color: var(--white-color);
+    font-size: 2.2rem;
+}
+
+.span-end {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.span-end:hover {
+    cursor: pointer;
+    color: #50af50;
+}
+
+.span-end-1 {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 
+}
+
+.btn-1 {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    padding: 12px 16px;
+    margin: 5px 5px 5px 0;
+    color: var(--white-color);
+    background-color: #616161;
+    border: 0;
+}
+
+.btn-1:hover {
+    background-color: #ccc8c8;
+    color: var(--black-color);
+}
+
+.btn-2 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding: 14px 16px;
+    margin: 10px 10px 10px 0;
+    color: var(--white-color);
+    background-color: #4CAF50;
+    border: 0;
+}
+
+.btn-3 {
+    padding: 16px;
+    background-color: #50af50;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    border: none;
+    width: 300px;
+    margin: 0 8px;
+}
+
+.btn-4 {
+    padding: 16px;
+    background-color: #50af50;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    border: none;
+    width: 120px;
+    margin: 0 7px;
+}
+
+.btn-end {
+    height: 40px;
+    background-color: #f1f1f1;
+    color: #000;
+    border: none;
+    margin: 6px;
+    font-size: 1.8rem;
+}
+
+.btn-end:hover {
+    background-color: #c0bebe;
+    cursor: pointer;
+}
+
+.special-btn:hover {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.input-1 {
+    height: 256px;
+    width: 95%;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+}
