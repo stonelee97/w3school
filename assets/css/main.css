@@ -404,9 +404,11 @@
     color: var(--white-color);
     background-color: #616161;
     border: 0;
+    outline: none;
 }
 
 .btn-1:hover {
+    cursor: pointer;
     background-color: #ccc8c8;
     color: var(--black-color);
 }
@@ -419,6 +421,11 @@
     color: var(--white-color);
     background-color: #4CAF50;
     border: 0;
+    outline: none;
+}
+
+.btn-2:hover {
+    cursor: pointer;
 }
 
 .btn-3 {
@@ -429,6 +436,12 @@
     border: none;
     width: 300px;
     margin: 0 8px;
+    outline: none;
+
+}
+
+.btn-3:hover {
+    cursor: pointer;
 }
 
 .btn-4 {
@@ -439,6 +452,11 @@
     border: none;
     width: 120px;
     margin: 0 7px;
+    outline: none;
+}
+
+.btn-4 {
+    cursor: pointer;
 }
 
 .btn-end {
@@ -448,6 +466,8 @@
     border: none;
     margin: 6px;
     font-size: 1.8rem;
+    outline: none;
+
 }
 
 .btn-end:hover {
